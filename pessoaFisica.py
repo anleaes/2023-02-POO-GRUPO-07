@@ -11,3 +11,6 @@ class PessoaFisica:
 
 
 pessoa = PessoaFisica("João da Silva", "123.456.789-00", "01/01/1980")
+print("Nome:", pessoa.nome)
+print("CPF:", pessoa.cpf)
+print("Data de nascimento:", pessoa.data_nascimento)
