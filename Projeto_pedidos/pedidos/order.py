@@ -4,4 +4,3 @@ class Order:
         self.status = status
         self.client = client
 
-#classe order

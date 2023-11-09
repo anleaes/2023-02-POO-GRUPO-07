@@ -6,4 +6,3 @@ class Product:
         self.is_active = is_active
         self.category = category
 
-#classe product
