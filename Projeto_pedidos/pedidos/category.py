@@ -3,3 +3,5 @@ class Category:
         self.id = id
         self.name = name
         self.description = description
+
+#classe category

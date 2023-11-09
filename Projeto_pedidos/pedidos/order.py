@@ -3,3 +3,5 @@ class Order:
         self.total_price = total_price
         self.status = status
         self.client = client
+
+#classe order
