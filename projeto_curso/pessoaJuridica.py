@@ -1,9 +1,9 @@
-class Pessoa_Juridica: 
+from pessoa import Pessoa
+
+class Pessoa_Juridica(Pessoa): 
     
-    def __int__(self, nome_empresa, cnpj):
-        self.nome_empresa = nome_empresa
+    def __init__(self, nome, endereco, cnpj, data_abertura):
+        super().__init__(nome, endereco)
         self.cnpj = cnpj
+        self.data_nascimento = data_abertura
         
-    def exibir_info(self):
-        print(f"Nome da empresa: {self.nome_empresa}")
-        print(f"CNPJ: {self.cnpj}")
