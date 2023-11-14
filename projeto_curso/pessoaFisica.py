@@ -1,8 +1,8 @@
 from pessoa import Pessoa
 
 class PessoaFisica(Pessoa):
-    def __init__(self, nome, idade, cpf, data_nascimento):
-        super().__init__(nome, idade)
+    def __init__(self, nome, endereco, cpf, data_nascimento ):
+        super().__init__(nome, endereco)
         self.cpf = cpf
         self.data_nascimento = data_nascimento
 
