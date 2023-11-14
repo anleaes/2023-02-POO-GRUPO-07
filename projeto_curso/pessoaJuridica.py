@@ -1,9 +1,8 @@
 from pessoa import Pessoa
 
-class Pessoa_Juridica(Pessoa): 
-    
-    def __init__(self, nome, endereco, cnpj, data_abertura):
-        super().__init__(nome, endereco)
+class PessoaJuridica: 
+    def __init__(self, pessoa, cnpj, data_abertura):
+        self.pessoa = pessoa
         self.cnpj = cnpj
         self.data_nascimento = data_abertura
         
