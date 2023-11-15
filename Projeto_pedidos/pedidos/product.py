@@ -1,3 +1,5 @@
+from category import category
+
 class Product:
     def __init__(self, name, description, date_fabrication, is_active, category):
         self.name = name
