@@ -17,6 +17,6 @@ orderItem = OrderItem(2, 20.00, pedido, produto)
 cliente_rede_social = ClientSocialnetwork(cliente, socialnetwork)
 
 print("Produto: ", produto.name)
-print("valor total do pedido: ", pedido.total_price)
+print("Valor total do pedido: ", pedido.total_price)
 print("Nome do Cliente: ", cliente.first_name, cliente.last_name)
-print("rede social do cliente:", cliente_rede_social.socialnetwork.name)
+print("Rede social do cliente:", cliente_rede_social.socialnetwork.name)
