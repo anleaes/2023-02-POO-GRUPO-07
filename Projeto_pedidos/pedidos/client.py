@@ -9,9 +9,9 @@ class Client:
 
 # Exemplo de uso da classe Client
 client1 = Client("João", "Silva", "123 Rua Principal", "123-456-7890", "joao@email.com", "Masculino")
-print("First Name:", client1.first_name)
-print("Last Name:", client1.last_name)
-print("Address:", client1.address)
-print("Cell Phone:", client1.cell_phone)
+print("Nome:", client1.first_name)
+print("Sobrenome:", client1.last_name)
+print("Endereço:", client1.address)
+print("Telefone:", client1.cell_phone)
 print("Email:", client1.email)
-print("Gender:", client1.gender)
+print("Genero:", client1.gender)
