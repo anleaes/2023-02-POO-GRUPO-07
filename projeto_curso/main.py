@@ -14,6 +14,16 @@ curso1 = Curso('ADS', '20 creditos')
 matricula = Matricula('12345', '13/11/2023', curso1, pessoa_fisica1, pessoa_juridica1)
 
 
+print(f"Aluno: {pessoa1.nome}")
+print(f"contratante: {pessoa2.nome}")
+print(f"Curso: {curso1.nome}")
+print(f"Carga Horária: {curso1.carga_horaria}")
+print(f"Matricula realizada em : {matricula.data_matricula}")
+
+
+
+
+
 
 
 
