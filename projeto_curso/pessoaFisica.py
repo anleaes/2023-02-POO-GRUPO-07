@@ -9,3 +9,4 @@ class PessoaFisica:
     def exibir_informacoes(self):
         print(f"Nome: {self.pessoa.nome}")
         print(f"CPF: {self.cpf}")
+        print(f"Data de nascimento: {self.data_nascimento}")
