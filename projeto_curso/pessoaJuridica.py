@@ -7,4 +7,8 @@ class PessoaJuridica:
         self.data_abertura = data_abertura
         self.razao_social = razao_social
         
-        
+    def exibir_informacoes(self):
+        print(f"Nome: {self.pessoa.nome}")
+        print(f"CNPJ: {self.cnpj}")
+        print(f"Data abertura: {self.data_abertura}")
+        print(f"Razão Social: {self.razao_social}")
