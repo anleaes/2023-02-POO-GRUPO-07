@@ -7,7 +7,6 @@ class Client:
         self.email = email
         self.gender = gender
 
-# Exemplo de uso da classe Client
 client1 = Client("João", "Silva", "123 Rua Principal", "123-456-7890", "joao@email.com", "Masculino")
 print("Nome:", client1.first_name)
 print("Sobrenome:", client1.last_name)
