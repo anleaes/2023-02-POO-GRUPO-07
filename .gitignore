@@ -2,3 +2,5 @@ __pycache__
 .env
 /apps/artistas/__pycache__/*
 /apps/artistas/migrations/*
+/apps/visitantes/__pycache__/*
+/apps/visitantes/migrations/*
