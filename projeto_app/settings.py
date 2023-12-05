@@ -30,6 +30,9 @@ SECRET_KEY = config('SECRET_KEY')
 #DEBUG = True
 DEBUG = config('DEBUG', default=False, cast=bool)
 
+APPS_DIR = os.path.join(BASE_DIR, 'apps') 
+sys.path.insert(0, APPS_DIR) 
+
 ALLOWED_HOSTS = []
 
 
@@ -43,6 +46,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'artistas.apps.ArtistasConfig',
 ]
 
 MIDDLEWARE = [

@@ -1,0 +1,4 @@
+__pycache__
+.env
+/apps/artistas/__pycache__/*
+/apps/artistas/migrations/*
