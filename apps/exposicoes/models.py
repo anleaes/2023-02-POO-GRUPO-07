@@ -4,7 +4,7 @@ from artistas.models import Artista
 
 # Após o comentario "# Create your models here." e crie a classe "Product" do modelo.
 
-class exposicao(models.Model):
+class Exposicao(models.Model):
     nome = models.CharField('Nome', max_length=50)
     description = models.TextField('Descricao', max_length=100)
     data_exposicao = models.DateField('Data Exposição', auto_now=False, auto_now_add=False) 
@@ -16,4 +16,4 @@ class exposicao(models.Model):
         ordering =['id']
 
     def __str__(self):
-        return self.name
+        return self.nome

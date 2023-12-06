@@ -20,7 +20,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('artistas/', include('artistas.urls', namespace='artistas')),
     path('visitantes/', include('visitantes.urls', namespace='visitantes')),   
-    path('compradores/', include('compradores.urls', namespace='compradores')), 
+    path('compradores/', include('compradores.urls', namespace='compradores')),
+    path('exposicoes/', include('exposicoes.urls', namespace='exposicoes')), 
   #  path('lojaMuseu/', include('lojaMuseu.urls', namespace='lojaMuseu')), 
   #  path('obraDeArte/', include('obraDeArte.urls', namespace='obraDeArte')), 
 ]
