@@ -2,13 +2,13 @@ from django.shortcuts import render
 
 # Create your views here.
 
-from .models import Compradores
+from .models import Comprador
 from rest_framework import viewsets
-from .serializer import ArtistaSerializer
+from .serializer import CompradoresSerializer
 
 # Após o comentario "# Create your views here." e crie as views "Category".
 
 class CategoryViewSet(viewsets.ModelViewSet):
-    queryset = Compradores.objects.all()
+    queryset = Comprador.objects.all()
     serializer_class = CompradoresSerializer
     
