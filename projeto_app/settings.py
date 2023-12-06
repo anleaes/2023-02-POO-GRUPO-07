@@ -47,7 +47,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'artistas.apps.ArtistasConfig',
-    'visitantes.apps.VisitantesConfig'
+    'visitantes.apps.VisitantesConfig',
+    'compradores.apps.CompradoresConfig',
+ #   'lojaMuseu.apps.LojaMuseuConfig',
+  #  'obraDeArte.apps.ObraDeArteConfig',   
 ]
 
 MIDDLEWARE = [
