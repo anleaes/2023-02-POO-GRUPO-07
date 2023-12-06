@@ -10,3 +10,5 @@ __pycache__
 /apps/lojaMuseu/migrations/*
 /apps/obraDeArte/__pycache__/*
 /apps/obraDeArte/migrations/*
+/apps/exposicoes/__pycache__/*
+/apps/exposicoes/migrations/*
