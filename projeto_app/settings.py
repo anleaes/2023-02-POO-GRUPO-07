@@ -51,7 +51,7 @@ INSTALLED_APPS = [
     'compradores.apps.CompradoresConfig',
     'exposicoes.apps.ExposicoesConfig',
     'lojaMuseu.apps.LojaMuseuConfig',
-  #  'obraDeArte.apps.ObraDeArteConfig',   
+    'obraDeArte.apps.ObraDeArteConfig',
 ]
 
 MIDDLEWARE = [
