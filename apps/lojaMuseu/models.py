@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 
 class LojaMuseu(models.Model):
-    nome = models.CharField('Nome da Obra:', max_length=100)
+    name = models.CharField('Nome da Obra:', max_length=100)
     valor = models.CharField('Valor da Obra:', max_length=50)
     quantidade = models.TextField('Quantidade disponivel:', max_length=10)
     
