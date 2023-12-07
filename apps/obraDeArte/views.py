@@ -8,7 +8,7 @@ from .serializer import ObraDeArteSerializer
 
 # Após o comentario "# Create your views here." e crie as views "Category".
 
-class CategoryViewSet(viewsets.ModelViewSet):
+class ObraDeArteViewSet(viewsets.ModelViewSet):
     queryset = ObraDeArte.objects.all()
     serializer_class = ObraDeArteSerializer
     
