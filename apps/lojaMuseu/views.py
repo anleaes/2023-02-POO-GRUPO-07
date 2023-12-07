@@ -8,7 +8,7 @@ from .serializer import LojaMuseuSerializer
 
 # Após o comentario "# Create your views here." e crie as views "Category".
 
-class CategoryViewSet(viewsets.ModelViewSet):
+class LojaMuseuViewSet(viewsets.ModelViewSet):
     queryset = LojaMuseu.objects.all()
     serializer_class = LojaMuseuSerializer
     
