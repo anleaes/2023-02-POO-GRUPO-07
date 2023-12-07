@@ -22,6 +22,6 @@ urlpatterns = [
     path('visitantes/', include('visitantes.urls', namespace='visitantes')),   
     path('compradores/', include('compradores.urls', namespace='compradores')),
     path('exposicoes/', include('exposicoes.urls', namespace='exposicoes')), 
-  #  path('lojaMuseu/', include('lojaMuseu.urls', namespace='lojaMuseu')), 
-  #  path('obraDeArte/', include('obraDeArte.urls', namespace='obraDeArte')), 
+    path('lojaMuseu/', include('lojaMuseu.urls', namespace='lojaMuseu')), 
+    path('obraDeArte/', include('obraDeArte.urls', namespace='obraDeArte')), 
 ]
