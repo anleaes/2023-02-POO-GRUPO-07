@@ -28,7 +28,7 @@ SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
-DEBUG = config('DEBUG', default=False, cast=bool)
+DEBUG = config('DEBUG', default=True, cast=bool)
 
 APPS_DIR = os.path.join(BASE_DIR, 'apps') 
 sys.path.insert(0, APPS_DIR) 
