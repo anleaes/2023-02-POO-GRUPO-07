@@ -50,7 +50,7 @@ INSTALLED_APPS = [
     'visitantes.apps.VisitantesConfig',
     'compradores.apps.CompradoresConfig',
     'exposicoes.apps.ExposicoesConfig',
- #   'lojaMuseu.apps.LojaMuseuConfig',
+    'lojaMuseu.apps.LojaMuseuConfig',
   #  'obraDeArte.apps.ObraDeArteConfig',   
 ]
 
